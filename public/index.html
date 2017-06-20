@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mongo News Scraper</title>
+
+  <!-- Linking to Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Linking to CSS -->
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="jumbotron">
+        <h1>Mongo News Scraper</h1>
+        <button id="homeBtn" class="btn btn-lg btn-primary">Home</button>
+        <button id="savedArticles" class="btn btn-lg btn-success">Saved Articles</button>
+        <button id="scrapeBtn" class="btn btn-lg btn-danger">Scrape Articles</button>
+      </div>
+    </div>
+
+    <div class="row">
+      <div id="articles"></div>
+      <div id="notes"></div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+   <script src="app.js"></script>
+</body>
+</html>
