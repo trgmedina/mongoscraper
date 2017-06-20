@@ -2,9 +2,9 @@
 
 Mongo Scraper takes any news website and scrapes the article headlines and links for the user to either save or create a note for that article.
 
-## Getting Started
+## Try It
 
-Use node in order to start the program. Type in 'node bamazonCustomer' and the application will start.
+[Mongo News Scraper](https://infinite-refuge-16692.herokuapp.com/)
 
 ## ScreenShots
 ![Articles](https://github.com/trgmedina/mongoscraper/blob/master/public/images/mongoscraper-screenshot.PNG)
