@@ -1,4 +1,4 @@
-# mongoscraper
+# Mongo News Scraper
 
 Mongo Scraper takes any news website and scrapes the article headlines and links for the user to either save or create a note for that article.
 
